@@ -2,10 +2,19 @@
   "name": "social-app",
   "version": "1.0.0",
   "description": "Social app",
+  "type": "module",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon node src/index.js",
+    "start": "node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.1.10"
+  },
+   "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
 }
